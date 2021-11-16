@@ -28,7 +28,7 @@ const FarmCards: React.FC = () => {
   const stakedValue = useAllStakedValue()
 
   const sushiIndex = farms.findIndex(
-    ({ tokenSymbol }) => tokenSymbol === 'SUSHI',
+    ({ tokenSymbol }) => tokenSymbol === 'uAR',
   )
 
   const sushiPrice =
@@ -37,7 +37,7 @@ const FarmCards: React.FC = () => {
       : new BigNumber(0)
 
   const BLOCKS_PER_YEAR = new BigNumber(2336000)
-  const SUSHI_PER_BLOCK = new BigNumber(1000)
+  const REWARD_PER_BLOCK = new BigNumber(1000)
 
   const rows = farms.reduce<FarmWithStakedValue[][]>(
     (farmRows, farm, i) => {
@@ -46,7 +46,7 @@ const FarmCards: React.FC = () => {
         ...stakedValue[i],
         apy: stakedValue[i]
           ? sushiPrice
-              .times(SUSHI_PER_BLOCK)
+              .times(REWARD_PER_BLOCK)
               .times(BLOCKS_PER_YEAR)
               .times(stakedValue[i].poolWeight)
               .div(stakedValue[i].totalWethValue)
@@ -128,7 +128,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
 
   return (
     <StyledCardWrapper>
-      {farm.tokenSymbol === 'SUSHI' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'uAR' && <StyledCardAccent />}
       <Card>
         <CardContent>
           <StyledContent>
@@ -183,7 +183,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
 }
 
 const RainbowLight = keyframes`
-  
+
 	0% {
 		background-position: 0% 50%;
 	}
@@ -286,7 +286,7 @@ const StyledInsight = styled.div`
   justify-content: space-between;
   box-sizing: border-box;
   border-radius: 8px;
-  background: #fffdfa;
+  background: #ffffff20;
   color: #aa9584;
   width: 100%;
   margin-top: 12px;

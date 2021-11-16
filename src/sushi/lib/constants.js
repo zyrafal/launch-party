@@ -65,7 +65,7 @@ UNI-V2 LP Address on mainnet for reference
 9  BAND 0xf421c3f2e695c2d4c0765379ccace8ade4a480d9
 10 AMPL 0xc5be99a02c6857f9eac67bbce58df5572498f40c
 11 YFI  0x2fdbadf3c4d5a8666bc06645b8358ab803996e28
-12 SUSHI 0xce84867c3c02b05dc570d0135103d3fb9cc19433
+12 uAR 0xce84867c3c02b05dc570d0135103d3fb9cc19433
 */
 
 export const supportedPools = [
@@ -78,8 +78,8 @@ export const supportedPools = [
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
     name: 'Sushi Party!',
-    symbol: 'SUSHI-ETH UNI-V2 LP',
-    tokenSymbol: 'SUSHI',
+    symbol: 'uAR-ETH UNI-V2 LP',
+    tokenSymbol: 'uAR',
     icon: '🍣',
   },
   {
@@ -285,7 +285,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a',
     },
-    name: 'SUSHIv2 SUSHI',
+    name: 'SUSHIv2 uAR',
     symbol: 'SUSHIv2-ETH UNI-V2 LP',
     tokenSymbol: 'SUSHIv2',
     icon: '🍠',
