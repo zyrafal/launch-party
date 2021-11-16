@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={ubiquity} height={120} />}
-        title="MasterChef is Ready"
+        title="End-Of-Cycle-Party is Ready"
         subtitle="Stake Ubiquityswap LP tokens to claim your very own yummy uAR!"
       />
 
