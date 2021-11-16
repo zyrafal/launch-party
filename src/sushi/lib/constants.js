@@ -36,7 +36,26 @@ export const addressMap = {
   COMP: '0xc00e94Cb662C3520282E6f5717214004A7f26888',
   LEND: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03',
   SUSHIYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
-}
+};
+
+export const addressMapStables = {
+  sushiswapFactory: undefined,
+  sushiswapFactoryV2: undefined,
+  uAR: undefined,
+  uAD: undefined,
+  UBQ: undefined,
+  LUSD: undefined,
+  OHM: undefined,
+  MIM: undefined,
+  UST: undefined,
+  FRAX: undefined,
+  FEI: undefined,
+  DOLA: undefined,
+  DAI: undefined,
+  USDC: undefined,
+  USDT: undefined,
+};
+
 
 export const contractAddresses = {
   sushi: {
