@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120" />}
-                subtitle="Earn uAR tokens by staking Uniswap V2 LP Tokens."
+                subtitle="Earn uAR tokens by staking Sushiswap LP Tokens."
                 title="Select Your Escape Pod"
               />
               <FarmCards />

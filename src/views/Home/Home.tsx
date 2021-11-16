@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={chef} height={120} />}
         title="MasterChef is Ready"
-        subtitle="Stake Uniswap LP tokens to claim your very own yummy uAR!"
+        subtitle="Stake Sushiswap LP tokens to claim your very own yummy uAR!"
       />
 
       <Container>
