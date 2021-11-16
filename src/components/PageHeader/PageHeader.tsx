@@ -40,10 +40,10 @@ const StyledIcon = styled.div`
 `
 
 const StyledTitle = styled.h1`
-  font-family: 'Kaushan Script', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   color: ${(props) => props.theme.color.grey[600]};
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 `
